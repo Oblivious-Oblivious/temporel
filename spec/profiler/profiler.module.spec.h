@@ -8,8 +8,6 @@
 #define TEMPOREL_ENABLE_PROFILER
 #include "../../src/profiler/profiler.h"
 
-#include <unistd.h>
-
 #ifndef usleep
 extern int usleep(unsigned int __useconds);
 #endif
